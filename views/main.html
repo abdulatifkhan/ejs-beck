@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bismillah</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <div class="container">
+    <%- include('components/header.html') -%>
+  
+    <h1 class="heading">List of Najot Ta'lim students</h1>
+    <p>By <%= owner.name %></p>
+  
+    <ul class="name-list">
+      <% for (let groupmate of groupmates) { %>
+      <li class="name-item">
+        <a class="name-link"
+          href= <%= "/view/"+groupmate.id %> >
+          <%= groupmate.name %>
+        </a>
+      </li>
+  
+      <% } %>
+    </ul>
+  </div>
+
+</body>
+</html>

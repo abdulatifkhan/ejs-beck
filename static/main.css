@@ -1,0 +1,50 @@
+body {
+  background-color: teal;
+  color: white;
+}
+
+.container {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.name-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.name-link {
+  display: block;
+  text-decoration: none;
+  color: wheat;
+  background-color: #1f1f1f;
+  border-radius: 14px;
+  min-width: 50px;
+  margin: 5px;
+  padding: 10px 50px;
+}
+
+.prof-img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.prof-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 24px;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+}

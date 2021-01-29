@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About groupmate</title>
+  <link rel="stylesheet" href="../main.css">
+</head>
+<body>
+  <div class="container">
+    <%- include('components/header.html') -%>
+
+    <h1 class="heading"><%= name %>'s Page</h1>
+    <img class="prof-img" src="<%= picture %>" alt="Rasm" width="300" height="300">
+    <a class="prof-link" target="_blank" href="<%= github %>"><%= name %>'s GitHub link</a>
+  </div>
+</body>
+</html>
